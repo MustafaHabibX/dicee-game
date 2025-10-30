@@ -28,7 +28,7 @@ This project demonstrates:
 ## Live Demo
 
 Check out the game online here:  
-[Play Dicee on GitHub Pages]()
+[Play Dicee on GitHub Pages](https://mustafahabibx.github.io/dicee-game/)
 
 <br>
 
