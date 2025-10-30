@@ -3,7 +3,7 @@
 A simple and interactive dice game built with **HTML, CSS, and JavaScript** where two players roll two dice each, and a player wins when both dice show the same number.
 
 <p align="center">
-  <img src="./assets/screenshot.png" alt="Dicee Game Banner" width="800"/>
+  <img src="./assets/banner.webp" alt="Dicee Game Banner" width="800"/>
 </p>
 
 <br>
