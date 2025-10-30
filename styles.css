@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 60%;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  animation: floatDice 3s ease-in-out infinite;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: "Poppins", sans-serif;
+  color: #f1faee;
+  animation: gradientShift 10s ease-in-out infinite;
+  background-size: 200% 200%;
+  height: 95vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  text-shadow: 0 0 25px rgba(255, 183, 3, 0.7);
+  font-size: 8rem;
+  color: #ffb703;
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+p {
+  font-size: 2rem;
+  color: #f1faee;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+  filter: drop-shadow(0 0 25px rgba(230, 57, 70, 0.7));
+}
+
+footer {
+  margin-top: 3%;
+  color: #a8dadc;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+}
+
+/* 🔥 Modern Keyframes */
+
+/* Floating animation for dice */
+@keyframes floatDice {
+  0%,
+  100% {
+    transform: translateY(0);
+    filter: drop-shadow(0 0 25px rgba(230, 57, 70, 0.6));
+  }
+  50% {
+    transform: translateY(-12px);
+    filter: drop-shadow(0 0 40px rgba(230, 57, 70, 0.9));
+  }
+}
+
+/* Title glow pulse */
+@keyframes glowPulse {
+  0%,
+  100% {
+    text-shadow: 0 0 15px rgba(255, 183, 3, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(255, 183, 3, 1);
+  }
+}
+
+/* Subtle moving gradient background */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* For the footer */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
