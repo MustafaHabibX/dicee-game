@@ -1,0 +1,15 @@
+# macOS system files
+.DS_Store
+
+# Node dependencies (if any in future)
+node_modules/
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
